@@ -1,0 +1,22 @@
+{
+    "parser": "@typescript-eslint/parser",
+    "extends": [
+      "plugin:prettier/recommended",
+      "prettier",
+      "eslint:recommended"
+    ],
+    "plugins": [
+      "@typescript-eslint"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2022,
+      "sourceType": "module",
+      // sometimes it's better to remove below line, because the eslint will format the code just by .tsconfig file
+      "project": "tsconfig.json"
+    },
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "rules": {}
+  }
