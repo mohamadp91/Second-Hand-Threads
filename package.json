@@ -1,0 +1,27 @@
+{
+  "name": "second-hand-threads",
+  "version": "1.0.0",
+  "description": "**Core Function:** Secondhand Threads is a C2C online platform for buying and selling pre-owned clothing and accessories. Users can create accounts, list items for sale with photos and descriptions, browse listings, chat with potential buyers in real-time, negotiate prices, and arrange secure payments and deliveries.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "build": "npx tsc ",
+    "lint": "npx eslint ./src/*.ts ./src/**/*.ts --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.7",
+    "@typescript-eslint/eslint-plugin": "^7.7.0",
+    "@typescript-eslint/parser": "^7.7.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.5",
+    "ts-node": "^10.9.2"
+  }
+}
